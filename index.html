@@ -1,11 +1,40 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Hello!</title>
-    <script src="main.js" async></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div id="newtext">aaa!</div>
-  </body>
-</html>
+<head>
+	<meta charset="utf-8">
+	<title>test page</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js" async></script>
+</head>
+<body>
+	<h1>Hello!!</h1>
+
+	<div class="p" id="jsa">小文字を大文字にする</div>
+	<input type="text" id="msgUpper"/>
+	<input type="button" value="実行" onclick="upper()"/>
+	<div id="upperKekka"></div>
+
+	<div class="p" id="jsa">大文字を小文字にする</div>
+	<input type="text" id="msgLower"/>
+	<input type="button" value="実行" onclick="lower()"/>
+	<div id="lowerKekka"></div>
+
+	<div class="p" id="jsa">時間を表示する</div>
+	<input type="button" value="実行" onclick="mouseTime()"/>
+	<div id="timeKekka"></div>
+
+	<div class="p" id="jsa">Sin,Cosを計算する</div>
+	<input type="text" id="enterAngleS"/>
+	<input type="button" value="実行" onclick="calcSCT()"/>
+	<div id="sinKekka"></div>
+
+	<div class="p" id="jsa">最大・最小を指定した乱数を生成する</div>
+	<input type="text" id="enterMax"/>
+	<input type="text" id="enterMin"/>
+	<input type="button" value="実行" onclick="makeRNG()"/>
+	<div id="rngKekka"></div>
+
+	<div class="p" id="jsa">大小比較する</div>
+	<input type="text" id="enterNum1"/>
+	<input type="text" id="enterNum2"/>
+	<input type="button" value="実行" onclick="cmpare()"/>
+	<div id="cmpKekka"></div>
+</body>
